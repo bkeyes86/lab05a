@@ -6,8 +6,10 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
-function sum(a, b) { //eslint-disable-line
-
+function sum(a,b) { //eslint-disable-line
+  var theSum = a + b;
+  var message = 'The sum of ' + a + ' and ' + b + ' is ' + theSum + ',';
+  return [theSum,message];
 }
 
 // Here is the test for sum(); uncomment it to run it
@@ -23,6 +25,10 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
+var product = a * b;
+var productMessage = 'The product of ' + a + 'and ' + n + 'is' + theProduct + ',';
+ 
+return(product, productMessage);
 
 }
 
@@ -41,7 +47,12 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
+var theSum = ;
+var product = ;
+var message1 = ;
+var message2 = ;
 
+  return[theSum, Product, message1, message2 ]
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
